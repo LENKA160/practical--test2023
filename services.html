@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Services - IWB PTY LTD</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+  <h1 class="logo">IWB PTY LTD</h1>
+  <nav>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+    <ul class="nav-links" id="navMenu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <main>
+    <h2 class="page-title">Your Services</h2>
+    <section class="services-container">
+      <div class="service-card">
+        <img src=https://th.bing.com/th/id/OIP.yHEsfqVCzOc6ffXG7OVLwAHaEK?w=261&h=180&c=7&r=0&o=7&pid=1.7&rm=3 alt="Recycling Icon" />
+        <h3>Waste Recycling</h3>
+        <p>We collect and recycle your old electronics responsibly.</p>
+      </div>
+      <div class="service-card">
+        <img src=https://th.bing.com/th/id/OIP.XiCwg0ranGptZtjDAxUZ1AHaEy?w=272&h=180&c=7&r=0&o=7&pid=1.7&rm=3 alt="Cleaning Icon" />
+        <h3>Device Cleaning</h3>
+        <p>We clean and refurbish usable electronics for reuse.</p>
+      </div>
+      <div class="service-card">
+        <img src=https://th.bing.com/th/id/OIP.0plT4Iscc51xLPzu_EfgqgHaHa?w=178&h=180&c=7&r=0&o=7&pid=1.7&rm=3 alt="Delivery Icon" />
+        <h3>Pickup & Delivery</h3>
+        <p>We offer convenient pickup and drop-off services for e-waste.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="contact.html">Contact Us</a></p>
+    <p>© 2023 IWB PTY LTD. All rights reserved.</p>
+  </footer>
+  <script>
+  const hamburger = document.getElementById('hamburger');
+  const navMenu = document.getElementById('navMenu');
+
+  hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('show');
+  });
+</script>
+</body>
+</html>

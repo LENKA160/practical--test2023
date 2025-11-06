@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - IWB PTY LTD</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ <header>
+  <h1 class="logo">IWB PTY LTD</h1>
+  <nav>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+    <ul class="nav-links" id="navMenu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <main>
+    <h2 class="page-title">Contact Us</h2>
+    <form class="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+
+    <section class="contact-info">
+      <h3>Get in Touch</h3>
+      <p>📞 +266 6286 4098</p>
+      <p>📧 draft@iwbpty.co.za</p>
+      <p>🏢 123 Anime Lane, Ladybrand, Free State</p>
+      
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="contact.html">Contact Us</a></p>
+    <p>© 2023 IWB PTY LTD. All rights reserved.</p>
+  </footer>
+  <script>
+  const hamburger = document.getElementById('hamburger');
+  const navMenu = document.getElementById('navMenu');
+
+  hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('show');
+  });
+</script>
+</body>
+</html>
